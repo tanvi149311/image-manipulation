@@ -1,0 +1,13 @@
+More detailed description: 
+Your program should accept the name of an image in PPM format, apply a number of filters to the image (based on the user’s selections), and write the modified image to a new file. This is done entirely by manipulation of the text file for the PPM image.
+Your program must allow the user to choose from the following filters. Note that more than one filter can be applied. For example, the user may choose to flip the image horizontally AND convert the image to greyscale. The resulting modified image should have both of those filters applied.
+	•	Flip image horizontally (note you will need to preserve RGB order, rather than just flip the entire row)
+	•	Convert to greyscale
+	•	Invert image colors (you can invert the colors by negating them as described in the assignment description links below)
+	•	Flatten red
+	•	Flatten green
+	•	Flatten blue
+Bonus Filters. You can earn bonus points for implementing 1 or 2 of the following bonus filters. Each filter is worth 5 points, for a max of 10 bonus points (you only get credit for up to 2 filters). The bonus filters are described in the links.
+	•	Horizontal blur
+	•	Extreme contrast
+	•	Random noise
